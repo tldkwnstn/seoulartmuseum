@@ -29,28 +29,15 @@
 
 
 <body>
-<?php
-if ( $pageCode == "home" ) {
-  $title = "홈";
-}
-else if ( $pageCode == "sub" ) {
-  $title = "서브";
-}
-?>
 
-  <title><?=$title?></title>
+  <title>서브</title>
 
-  <style>
-    .at {
-      color: white;
-    }
-  </style>
 
 <div class="site-wrap con-min-width">
   <div class="bg-121212">
     <header class="top-bar">
       <div class="con con-padd mx-auto flex">
-        <div class="header_logo"><a class="<?=$pageCode == "home" ? "at" : ""?>" href="index.php"><img src="https://i.postimg.cc/ZYBFvG72/image.png" alt=""></a></div>
+        <div class="header_logo"><a href="head.php"><img src="resource/images/head_logo.png" alt=""></a></div>
         <div class="flex-grow"></div>
         <div class="GNB">
           <div class="top flex">
@@ -60,12 +47,12 @@ else if ( $pageCode == "sub" ) {
               <li>&nbsp eng</li>
             </ul>
             <div class="inpo flex">
-              <div class="self-center img-box cursor-pointer"><img src="https://i.postimg.cc/rpL9qDyJ/Group-19.png" alt=""></div>
+              <div class="self-center img-box cursor-pointer"><img src="resource/images/head_1.png" alt=""></div>
             </div>
           </div>
           <div class="down flex">
             <ul class="flex">
-              <li><a class="<?=$pageCode == "sub" ? "at" : ""?>" href="sub.php">알림</a></li>
+              <li><a href="sub.html">알림</a></li>
               <li><a href="">교육 / 행사</a></li>
               <li><a href="">소장품</a></li>
               <li><a href="">연구출판자료</a></li>
@@ -78,4 +65,17 @@ else if ( $pageCode == "sub" ) {
       </div>
     </header>
 <main>
-      
+      <div class="sub">
+  <div class="page1 img-box">
+    <img src="resource/images/page1.png" alt="">
+  </div>
+  <div class="page2 img-box">
+  <img src="resource/images/page2.png" alt="">
+  </div>
+  <div class="page3 img-box">
+    <img src="resource/images/page3.png" alt="">
+  </div>
+  <div class="page4 img-box">
+    <img src="resource/images/page4.png" alt="">
+  </div>
+</div>

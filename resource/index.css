@@ -1,0 +1,281 @@
+/* 폰트적용 시작 */
+@import url("https://https://fonts.google.com/noto/specimen/Noto+Sans+KR");
+
+html > body {
+  font-family: "Noto sans", sans-serif;
+  max-width:1920px;
+  overflow-x:hidden;
+  background-color:#000000;
+}
+
+
+/* 라이브러리 */
+.img-box {
+  width:100%;
+  display:block;
+}
+
+:root {
+  --site-content-width: 1700px;
+  --site-content-px: 20px;
+}
+
+.con-min-width {
+  min-width:var(--site-content-width);
+  margin:0 auto;
+}
+
+.con-padd {
+  padding-left:var(--site-content-px);
+  padding-right:var(--site-content-px);
+}
+
+
+.con {
+  width:1600px;
+  margin:0 auto;
+}
+
+.img-box {
+  width:100%;
+  display:block;
+}
+
+
+.con-3 {
+  width:calc(var(--site-content-width) - 600px);
+}
+/* 커스텀 */
+
+.header_logo {
+  background-color:#111111;
+  width:200px;
+}
+
+.bg-121212 {
+  background-image:url(https://i.postimg.cc/MKWC6BZq/Frame-38-2.jpg);
+  background-repeat:no-repeat;
+  background-size:1920px;
+  min-width:1920px;
+  min-height:100vh;
+}
+
+/* top-bar */
+.top-bar {
+  padding-top:50px;
+}
+
+.top-bar > div > .GNB {
+  background-color:#111111;
+  width:1200px;
+  padding-bottom:-0px;
+  z-index: 100px;
+}
+
+.top-bar > div > .GNB > .top {
+  justify-content:flex-end;
+  align-items:center;
+  font-size:14px;
+  margin-top:10px;
+  color:white;
+}
+
+.top-bar > div > .GNB > .top > .inpo {
+  width:520px;
+  height:35px;
+  background-color:#282828;
+  border-radius:40px;
+  margin-left:10px;
+  padding-left:30px;
+}
+
+.top-bar > div > .GNB > .down {
+  justify-content:flex-end;
+  color:white;
+}
+
+.top-bar > div > .GNB > .down > ul > li {
+  justify-content:center;
+  align-items:center;
+  padding-left:40px;
+  padding-right:40px;
+  font-size:20px;
+  font-weight:bold;
+  margin-top:20px;
+}
+
+
+
+/* sectino-1 슬라이드 */
+.site-wrap {
+  overflow:hidden;
+}
+
+.swiper-box-1 .swiper {
+  overflow:visible;
+}
+
+.swiper-box-1 .swiper-slide {
+  height:500px;
+  position:relative;
+  top:60px;
+}
+
+.swiper-box-1 .swiper-slide > div {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  transition: opacity 1s, visibility 1s;
+}
+
+.swiper-box-1 .swiper-slide > div:last-child {
+  visibility:hidden;
+  opacity:0;
+}
+
+.swiper-box-1 .swiper-slide.swiper-slide-active > div:last-child {
+  visibility:visible;
+  opacity:1;
+}
+
+.swiper-box-1 .swiper-slide.swiper-slide-active > div:first-child {
+  visibility:hidden;
+  opacity:0;
+}
+
+
+/* section-2 */
+
+.title {
+  font-size:100px;
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: transparent;
+  text-shadow:6px 2px 0px #9D9D9D;
+  margin-top:500px;
+}
+
+.section-2 {
+  height:980px;
+}
+
+.section-2_img {
+  margin-top:-200px;
+}
+
+.section-2_img1 {
+  margin-top:300px;
+  width:680px;
+  height:749px;
+}
+
+.section-2_img2 {
+  margin-top: 480px; 
+  margin-left:390px;
+  width:397px;
+  height:676px;
+}
+
+.section-2_text1 {
+  position:absolute;
+  margin-top: -220px;
+  margin-left: 420px;
+  color:white;
+  font-size:86px;
+  font-family: 'Cormorant Unicase';
+}
+
+
+.section-2_text1-1 {
+  margin-top:-160px;
+}
+
+.section-2_text1-2 {
+  margin-top:-55px;
+}
+
+.section-2_text2 {
+  position:absolute;
+  margin-top: -250px;
+  margin-left:780px;
+  color:white;
+  font-size:18px;
+}
+
+/* section-3 */
+.section-3 {
+  margin-top:500px;
+  width:1920px;
+  height:900px;
+  background-color:#000000;
+  background-image:url(https://i.postimg.cc/8PQ0c61j/Group-74.png);
+  background-repeat:no-repeat;
+  background-size:1920px;
+  height:100vh;
+  
+}
+
+.site-wrap {
+  overflow:hidden;
+}
+
+.swiper-box-2 .swiper {
+  overflow:visible;
+}
+
+.swiper-box-2 .swiper-slide {
+  height:500px;
+  position:relative;
+  top:250px;
+  right:-310px;
+}
+
+.swiper-box-2 .swiper-slide > div {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  transition: opacity 1s, visibility 1s;
+}
+
+.swiper-box-2 .swiper-slide > div:last-child {
+  visibility:hidden;
+  opacity:0;
+}
+
+.swiper-box-2 .swiper-slide.swiper-slide-active > div:last-child {
+  visibility:visible;
+  opacity:1;
+}
+
+.swiper-box-2 .swiper-slide.swiper-slide-active > div:first-child {
+  visibility:hidden;
+  opacity:0;
+}
+
+
+/* section-4 */
+.section-4 > div > img {
+  margin-top:100px;
+  margin-bottom:100px;
+  width:1920px;
+  display:block;
+}
+
+
+/* section-5 */
+.section-5 > div > img {
+  margin-top:100px;
+  width:1920px;
+  display:block;
+}
+
+
+
+/* 서브페이지 */
+/* page1 */
+.page1 {
+  margin-top: 20px;
+}

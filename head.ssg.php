@@ -21,10 +21,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
   
   <!-- 공통 CSS -->
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="resource/index.css">
 
   <!-- 공통 JS -->
-  <script src="index.js" defer></script>
+  <script src="resource/index.js" defer></script>
 </head>
 
 

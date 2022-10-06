@@ -102,9 +102,48 @@ html > body {
   font-size:20px;
   font-weight:bold;
   margin-top:20px;
+  color: 1px solid yellow;
 }
 
+.top-bar > div > .GNB > .down > ul > .down2 {
+  position:relative;
+  
+} 
 
+
+.top-bar > div > .GNB > .down > ul > .down2 > .down2_sub {
+  position:absolute;
+  background:linear-gradient(to bottom,blue, skyblue);
+  width:100%;
+  left:0;
+  z-index:10;
+}
+
+.top-bar > div > .GNB > .down > ul > .down2 > a::after {
+  display:inline-block;
+  position:absolute;
+  content:"";
+  top:27px;
+  left:0;
+  bottom:10px;
+  width:0px;
+  height:3px;
+  background-color:yellow;
+  transition:.3s;
+}
+
+.top-bar > div > .GNB > .down > ul > .down2:hover > a::after {
+  width:100%;
+}
+
+.top-bar > div > .GNB > .down > ul > .down2 > .down2_sub > li {
+  display:none;
+  color:white;
+  padding:10px;
+}
+.top-bar > div > .GNB > .down > ul > .down2:hover > .down2_sub > li {
+  display:block;
+}
 
 /* sectino-1 슬라이드 */
 .site-wrap {

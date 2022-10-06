@@ -61,7 +61,7 @@ else if ( $pageCode == "sub" ) {
           <div class="down flex">
             <ul class="flex">
               <li><a href="sub.ssg.php">알림</a></li>
-              <li><a href="">교육 / 행사</a></li>
+              <li class="down2"><a href="">교육 / 행사</a></li>
               <li><a href="">소장품</a></li>
               <li><a href="">연구출판자료</a></li>
               <li><a href="">소식 / 참여</a></li>

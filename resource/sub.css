@@ -1,0 +1,385 @@
+/* 폰트적용 시작 */
+@import url("https://https://fonts.google.com/noto/specimen/Noto+Sans+KR");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@600&display=swap');
+
+
+html > body {
+  font-family: "Noto sans", sans-serif;
+  max-width:1920px;
+  overflow-x:hidden;
+}
+/*라이브러리*/
+.img-box {
+  width:100%;
+  margin:0 auto;
+  display:block;
+}
+
+:root {
+  --site-max-width: 1920px;
+  --site-content-width: 1700px;
+  --site-content-px: 20px;
+}
+
+.con-min-width {
+  min-width:var(--site-content-width);
+  margin:0 auto;
+}
+
+.con-max-width {
+  max-width: var(--site-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.con-sub_content{
+  padding-left:300px;
+  padding-right:300px;
+}
+
+.con-padd {
+  padding-left:var(--site-content-px);
+  padding-right:var(--site-content-px);
+}
+
+.con {
+  width:var(--site-content-width);
+}
+
+.con-2 {
+  margin-left:200px;
+}
+
+.con-3 {
+  width:calc(var(--site-content-width) - 600px);
+}
+
+.txt1 {
+  font-size:3rem;
+  font-weight:bold;
+}
+
+.txt2 {
+  font-size:1.8rem;
+}
+
+/* 커스텀 */
+
+.header_logo {
+  background-color:#111111;
+  width:200px;
+}
+
+.bg-121212 {
+  background-image:url(https://i.postimg.cc/MKWC6BZq/Frame-38-2.jpg);
+  background-repeat:no-repeat;
+  background-size:1920px;
+  min-width:1920px;
+  min-height:100vh;
+}
+
+/* top-bar */
+.top-bar {
+  padding-top:15px;
+}
+
+.top-bar > div > .GNB {
+  background-color:#111111;
+  width:1200px;
+  padding-bottom:-0px;
+}
+
+.top-bar > div > .GNB > .top {
+  justify-content:flex-end;
+  align-items:center;
+  font-size:14px;
+  margin-top:10px;
+  color:white;
+}
+
+.top-bar > div > .GNB > .top > .inpo {
+  width:520px;
+  height:35px;
+  background-color:#282828;
+  border-radius:40px;
+  margin-left:10px;
+  padding-left:30px;
+}
+
+.top-bar > div > .GNB > .down {
+  justify-content:flex-end;
+  color:white;
+}
+
+.top-bar > div > .GNB > .down > ul > li {
+  justify-content:center;
+  align-items:center;
+  padding-left:40px;
+  padding-right:40px;
+  font-size:20px;
+  font-weight:bold;
+  margin-top:20px;
+}
+
+.top-bar > div > .GNB > .down > ul > .down2 {
+  position:relative;
+  
+} 
+
+
+.top-bar > div > .GNB > .down > ul > .down2 > .down2_sub {
+  position:absolute;
+  background:linear-gradient(to bottom,blue, skyblue);
+  width:100%;
+  left:0;
+  z-index:10;
+}
+
+.top-bar > div > .GNB > .down > ul > .down2 > a::after {
+  display:inline-block;
+  position:absolute;
+  content:"";
+  top:27px;
+  left:0;
+  bottom:10px;
+  width:0px;
+  height:3px;
+  background-color:yellow;
+  transition:.3s;
+}
+
+.top-bar > div > .GNB > .down > ul > .down2:hover > a::after {
+  width:100%;
+}
+
+.top-bar > div > .GNB > .down > ul > .down2 > .down2_sub > li {
+  display:none;
+  color:white;
+  padding:10px;
+}
+.top-bar > div > .GNB > .down > ul > .down2:hover > .down2_sub > li {
+  display:block;
+}
+
+
+/*page1*/
+.sub
+.page1 {
+  display:flex;
+  font-family: 'Cormorant Unicase', serif;
+}
+.page1 > ul > .page1_top-img > img {
+  width:1920px;
+}
+
+.page1 > ul > .top-img_txt {
+  font-size:4.2rem;
+  color:white;
+  margin-top:-250px;
+  letter-spacing:-2px;
+}
+
+
+/*page2 시작*/
+.page2_top {
+  position:relative;
+  display:flex;
+  font-family: 'Cormorant Unicase', serif;
+  font-size:4rem;
+  margin-top:350px;
+}
+
+.page2_top_txt2 {
+  margin-top:-45px;
+}
+
+.page2 > .page2_bottom {
+  justify-content:space-between;
+}
+
+.page2 > .page2_bottom-1 {
+  
+}
+
+.page2 > .page2_bottom-2 {
+}
+
+.page2 > .page2_bottom > .page2_bottom-1 > ul > .page2_bottom_cal > img {
+  width:400px;
+  height:400px;
+  object-fit:contain;
+}
+
+.page2 > .page2_bottom > .page2_bottom-1 > ul > .page2_bottom_txt > img {
+  margin-top:10px;
+  margin-left:-5px;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  
+}
+
+.page2 > .page2_bottom > .page2_bottom-2 {
+  padding-right:px;
+}
+
+.page2 > .page2_bottom > .page2_bottom-2 > .page2_bottom-2_img {
+  
+}
+
+.page2 > .page2_bottom > .page2_bottom-2 > .page2_bottom-2_img > img {
+  margin-top:-10px;
+  object-fit:contain;
+}
+
+.page2 > .page2_bottom > .page2_bottom-2 > .page2_bottom-2_txt  > ul {
+  justify-content:space-around;
+  margin-top:-150px;
+  margin-left:-15px;
+}
+
+.page2 > .page2_bottom > .page2_bottom-2 > .page2_bottom-2_txt > ul > .page2_bottom-2_btn {
+  border: 1px solid white;
+  border-radius:40px;
+}
+
+.page2 > .page2_bottom > .page2_bottom-2 > .page2_bottom-2_txt > ul > .page2_bottom-2_btn > a {
+  font-size:0.9rem;
+  padding:2px 5px;
+  color:white;
+  
+}
+
+.page2 > .page2_bottom > .page2_bottom-2 > .page2_bottom-2_txt > ul > .page2_bottom-2_txt {
+  color:white;
+}
+
+/*page3 시작*/
+.page3 {
+  
+}
+
+.page3 > .page3_bg {
+  margin-top:550px;
+  width:1700px;
+  height:110px;
+  background-color:#8E0203;
+}
+
+.page3 > .page3_contents > .page3_left > .page3_left_txt1 > ul > li {
+  font-family: 'Cormorant Unicase', serif;
+  font-size:4rem;
+  letter-spacing:-5.5px;
+  margin-top:-380px;
+}
+
+.page3 > .page3_contents > .page3_left > .page3_left_txt1 >  ul > .page3_left_txt1_bottom {
+  margin-top:-47px;
+}
+
+.page3 > .page3_contents > .page3_left > .page3_left_txt2 {
+  margin-top:30px;
+}
+
+.page3 > .page3_contents > .page3_left > .page3_left_txt3 {
+  color:white;
+}
+.page3 > .page3_contents > .page3_left > .page3_left_txt3 > a > ul > .page3_left_txt3_top {
+  margin-top:80px;
+}
+
+.page3 > .page3_contents > .page3_left > .page3_left_txt3 > a > ul > .page3_left_txt3_bottom {
+  margin-top:105px;
+  margin-left:10px;
+}
+
+
+.page3 > .page3_contents > .page3_right {
+  margin-left:15px;
+  margin-top:-30px;
+  padding-right:-100px;
+}
+
+.page3 > .page3_contents > .page3_right > .page3_right1 {
+  width:230px;
+  margin-top:-320px;
+  margin-left:60px;
+}
+
+.page3 > .page3_contents > .page3_right > .page3_right2 {
+  width:232px;
+  margin-top:-325px;
+  margin-left:300px;
+}
+
+.page3 > .page3_contents > .page3_right > .page3_right3 {
+  width:232px;
+  margin-top:-325px;
+  margin-left:550px;
+}
+
+/*page4 시작*/
+.page4 {
+  
+}
+.page4 > .page4_bg {
+  margin-top:900px;
+  margin-left: auto;
+  width:1700px;
+  height:250px;
+  background-color:#121212;
+}
+
+.page4 > .page4_contents > div {
+  
+}
+
+.page4 > .page4_contents > .page4_content2 {
+  margin-left:px;
+}
+
+.page4 > .page4_contents > .page4_content3 {
+  margin-left:px;
+}
+
+.page4 > .page4_contents > .page4_content1 > .page4_content1_txt {
+  font-family: 'Cormorant Unicase', serif;
+  font-size:4rem;
+  letter-spacing:-4px;
+  margin-top:-600px;
+}
+
+.page4 > .page4_contents > .page4_content1 > .page4_content1_img > img {
+  width:450px;
+  margin-left:0px;
+}
+
+.page4 > .page4_contents > .page4_content2 > .page4_content2_top > img {
+  width:500px;
+  margin-top:-500px;
+}
+
+.page4 > .page4_contents > .page4_content2 > .page4_content2_bottom {
+  color:white;
+  font-size:1.2rem;
+  margin-top:40px;
+}
+
+.page4 > .page4_contents > .page4_content2 > .page4_content2_bottom > .page4_content2_bottom1 {
+  margin-left:60px;
+}
+
+.page4 > .page4_contents > .page4_content2 > .page4_content2_bottom > .page4_content2_bottom2 {
+  margin-left:30px;
+}
+
+.page4 > .page4_contents > .page4_content2 > .page4_content2_bottom > .page4_content2_bottom3 {
+  margin-left:30px;
+}
+
+.page4 > .page4_contents > .page4_content3 {
+  margin-top:-245px;
+  margin-left:120px;
+  color:white;
+  
+}

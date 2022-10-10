@@ -2,6 +2,9 @@
 $pageCode = "home";
 ?>
 <?php require_once "head.php"; ?>
+<div class="site-wrap con-min-width">
+  <div class="bg-121212">
+    <main>
       <section class="section section-1">
         <div class="con-3 mx-auto">
           <div class="swiper-box-1">
@@ -26,14 +29,14 @@ $pageCode = "home";
           </div>
         </div>
       </section>
-      <section class="section section-2">
+      <section class="section section-2 relative">
         <div class="con">
           <div class="title flex justify-end">
             <span>About Center</span>
           </div>
           <div class="section-2_img flex">
-            <div class="img-box section-2_img1"><img src="https://i.postimg.cc/TY7F6dkY/section-2-1.png" alt=""></div>
-            <div class="img-box section-2_img2"><img src="https://i.postimg.cc/T3KS2zSj/section-2-2.png" alt=""></div>
+            <div class="img-box section-2_img1"><img src="https://i.postimg.cc/kGPDGjcc/Group-63.png" alt=""></div>
+            <div class="img-box section-2_img2"><img src="https://i.postimg.cc/QtTHXLpC/1-1.png" alt=""></div>
           </div>
           <div class="text flex flex-col">
             <div class="section-2_text1">
@@ -57,16 +60,16 @@ $pageCode = "home";
                 <div class="swiper-wrapper">
                   <!-- Slides -->
                   <div class="swiper-slide" data-swiper-slide-index="0">
-                    <div class"img-box"><img src="resource/images/section-3_1.png" alt=""></div>
-                    <div class"img-box"><img src="resource/images/section-3_2.png" alt=""></div>
+                    <div class"img-box"><img src="https://i.postimg.cc/Gm7P8HWW/Group-81.png" alt=""></div>
+                    <div class"img-box"><img src="https://i.postimg.cc/QtnVykSm/Group-85.png" alt=""></div>
                   </div>
                   <div class="swiper-slide" data-swiper-slide-index="1">
-                    <div class"img-box"><img src="resource/images/section-3_3.png" alt=""></div>
-                    <div class"img-box"><img src="resource/images/section-3_4.png" alt=""></div>
+                    <div class"img-box"><img src="https://i.postimg.cc/c1nFpMpr/Group-77.png" alt=""></div>
+                    <div class"img-box"><img src="https://i.postimg.cc/c1hcy9D1/Group-83.png" alt=""></div>
                   </div>
                   <div class="swiper-slide" data-swiper-slide-index="2">
-                    <div class"img-box"><img src="resource/images/section-3_5.png" alt=""></div>
-                    <div class"img-box"><img src="resource/images/section-3_6.png" alt=""></div>
+                    <div class"img-box"><img src="https://i.postimg.cc/pL2knNpF/Group-80.png" alt=""></div>
+                    <div class"img-box"><img src="https://i.postimg.cc/prsQfr95/Group-84.png" alt=""></div>
                   </div>
                 </div>
               </div>
@@ -76,13 +79,16 @@ $pageCode = "home";
       </section>
       <section class="section section-4">
         <div class="img-box">
-          <img src="resource/images/section-4.jpg" alt="">
+          <img src="https://i.postimg.cc/q7j6xPF6/Frame-5.jpg" alt="">
         </div>
       </section>
       <section class="section section-5">
         <div class="img-box">
-          <img src="resource/images/section-5.jpg" alt="">
+          <img src="https://i.postimg.cc/RFY3jc4M/Frame-6.jpg" alt="">
         </div>
       </section>
+    </main>
+</div>
+</div>
 <?php require_once "foot.php"; ?>
 

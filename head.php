@@ -60,8 +60,15 @@ else if ( $pageCode == "sub" ) {
           </div>
           <div class="down flex">
             <ul class="flex">
-              <li><a href="sub.ssg.php">알림</a></li>
-              <li class="down2"><a href="">교육 / 행사</a></li>
+              <li><a href="">전시</a></li>
+              <li class="down2">
+                <a href="">교육 / 행사</a>
+                <ul class="down2_sub">
+                  <li><a href="">어린이</a></li>
+                  <li><a href="">어른</a></li>
+                  <li><a href="">체험관</a></li>
+                </ul>
+              </li>
               <li><a href="">소장품</a></li>
               <li><a href="">연구출판자료</a></li>
               <li><a href="">소식 / 참여</a></li>

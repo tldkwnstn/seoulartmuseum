@@ -254,6 +254,10 @@ html > body {
   color:white;
 }
 
+.page2 > .page2_bottom > .page2_bottom-1 > ul > .page2_bottom_txt > img {
+  margin-top: -150px;
+}
+
 /*page3 시작*/
 .page3 {
   

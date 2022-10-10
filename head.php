@@ -41,7 +41,7 @@ else if ( $pageCode == "sub" ) {
 <div class="site-wrap con-min-width">
     <header class="top-bar">
       <div class="con con-padd mx-auto flex">
-        <div class="header_logo"><a href="head.php"><img src="resource/images/head_logo.png" alt=""></a></div>
+        <div class="header_logo"><a href="index.ssg.php"><img src="resource/images/head_logo.png" alt=""></a></div>
         <div class="flex-grow"></div>
         <div class="GNB">
           <div class="top flex">

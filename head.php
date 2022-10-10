@@ -19,9 +19,6 @@
   <!-- 스와이퍼 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
-  
-  <!-- 공통 CSS -->
-  <link rel="stylesheet" href="resource/index.css">
 
   <!-- 공통 JS -->
   <script src="resource/index.js" defer></script>
@@ -42,7 +39,6 @@ else if ( $pageCode == "sub" ) {
 
 
 <div class="site-wrap con-min-width">
-  <div class="bg-121212">
     <header class="top-bar">
       <div class="con con-padd mx-auto flex">
         <div class="header_logo"><a href="head.php"><img src="resource/images/head_logo.png" alt=""></a></div>
@@ -60,7 +56,7 @@ else if ( $pageCode == "sub" ) {
           </div>
           <div class="down flex">
             <ul class="flex">
-              <li><a href="">전시</a></li>
+              <li><a href="sub.ssg.php">전시</a></li>
               <li class="down2">
                 <a href="">교육 / 행사</a>
                 <ul class="down2_sub">

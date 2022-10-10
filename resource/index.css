@@ -87,6 +87,7 @@ html > body {
 /* top-bar */
 .top-bar {
   padding-top:15px;
+  background-color: #121212;
 }
 
 .top-bar > div > .GNB {

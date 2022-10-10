@@ -1,6 +1,9 @@
 <?php
 $pageCode = "sub";
 ?>
+
+<!-- 공통 CSS -->
+<link rel="stylesheet" href="resource/sub.css">
 <?php
 require_once "head.php"
 ?>
@@ -92,7 +95,7 @@ require_once "head.php"
         <div class="page4_contents con-sub_content flex">
           <div class="page4_content1">
             <div class="page4_content1_txt">
-              Today`s  Event
+              Today`s Event
             </div>
             <div class="page4_content1_img">
               <img src="https://i.postimg.cc/hG8P0mNB/fw.png" alt="" class="img-box">

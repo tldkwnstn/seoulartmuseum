@@ -1,6 +1,8 @@
 <?php
 $pageCode = "home";
 ?>
+
+<link rel="stylesheet" href="resource/index.css">
 <?php require_once "head.php"; ?>
 <div class="site-wrap con-min-width">
   <div class="bg-121212">
@@ -88,7 +90,7 @@ $pageCode = "home";
         </div>
       </section>
     </main>
+  </div>
 </div>
 </div>
 <?php require_once "foot.php"; ?>
-
